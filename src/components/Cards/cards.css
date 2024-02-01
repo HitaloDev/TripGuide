@@ -1,0 +1,58 @@
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  margin-bottom: 60px;
+  background-color: rgb(255, 255, 255);
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+
+  transition: transform 0.3s ease;
+}
+
+.link:hover {
+  transform: scale(1.03);
+}
+
+.card-cidade, .card-pais, .card-data {
+  padding-left: 25px;
+}
+
+.card-data {
+  padding-bottom: 25px;
+}
+
+.card-img {
+  width: 400px;
+  height: 250px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  margin-bottom: 20px;
+
+  object-fit: cover;
+}
+
+.card-cidade {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.card-pais{
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: rgb(102, 102, 102);
+}
+
+.card-data {
+  font-size: 20px;
+}
