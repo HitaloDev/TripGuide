@@ -6,7 +6,7 @@ import { data } from "../../data.jsx";
 import "./rooms.css";
 
 const openai = new OpenAI({
-  apiKey: process.env.REACT_APP_OPENAI_API_KEY,
+  apiKey: '',
   dangerouslyAllowBrowser: true
 });
 
